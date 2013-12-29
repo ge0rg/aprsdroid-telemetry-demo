@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<EditText
+		android:id="@+id/callssid"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:hint="CALLSIGN-SSID"
+		/>
+	<TextView
+		android:id="@+id/info"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Hello World, TelemetrySender"
+		/>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Start APRSdroid"
+		android:onClick="onStartService"
+		/>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Send Parameters"
+		android:onClick="onSendParams"
+		/>
+	<Button
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Send Values"
+		android:onClick="onSendValues"
+		/>
+</LinearLayout>
+
